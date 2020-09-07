@@ -9,13 +9,17 @@
     <style>
         body{
             font-family: 'Karla', sans-serif;
-            line-height: 1.5;
+            line-height: 1.3;
+            margin-left: 20px;
+           
         
         }
         .container{
             background-color: #ff7d7d;
             width: 100%;
             height: 100vh;
+            
+            
             
         }
         .box{
@@ -25,18 +29,24 @@
             top:50%;
             left: 50%;
             transform: translate(-50%, -50%);
-          border-radius: 1em;
+            border-radius: 5px;
+            overflow: hidden;
+          
          
         }
         h1{
             font-size: 24px;
             color:#4abebd;
+            margin-left: 50px;
+            margin-top:30px;
             
         }
-        /*ul{
-            list-style: disc;
+        ul{
+            list-style:none;
             margin-left: 20px;
-        }*/
+            font-size: 15px;
+            color: white;
+        }
 
         .footer{
            display: flex;
@@ -45,41 +55,60 @@
         .footer .col{
             width: 50%;
             background-color: rgb(167, 217, 218);
-            border-bottom-right-radius: 10%;
-           
-           
-           
             
         }
         .footer .col:nth-child(1){
             background-color:mediumturquoise;
-            border-bottom-left-radius: 10%;
+            
           
         }
         h2{
             font-size: 24px;
             color:greenyellow;
+            margin-left:50px;
             
         }
-        p{
+        .p{
             font-size: 14px;
-            color:#4a4a4a;
+            color:#a3a0a0;
+            margin-left: 50px;
             
         }
         h3{font-size: 24px;
             color: honeydew;
+            margin-left: 52px;
             
 
         }
         .button{
             background-color: springgreen;
-            color: black;
+            margin-left: 50px;
+            height: 30px;
+            width: 205px;
             border:none;
+            border-radius: 5px;
+           
+
         }
         .list{
             color:rgb(211, 208, 208);
             font-size: 14px;
         }
+        .price
+        {
+            margin-left: 50px;
+            font-size: 20px;
+            color:whitesmoke;
+            font-weight: bold;
+
+        }
+        .p1
+        {
+            font-size: 14px;
+            color:white;
+            margin-left: 50px; 
+        }
+    
       
     </style>
 </head>
@@ -89,16 +118,16 @@
             <div class="header">
                 <h1>Join our Community</h1>
                 <h2>30-day,hassle-free money back guarantee</h2>
-                <p>Gain access to our full library of tutorials along with expert code reviews.<br>
+                <p class="p">Gain access to our full library of tutorials along with expert code reviews.<br>
                     Perfect for any developers who are serious about honing thier skills</p>
             </div>
             <div class="footer">
                 <div class="col">
                     <h3>Monthly Subscription</h3>
-                    <div class="price">$29 <span>per month</span></div>
-                    <p>Full access for less than $1 a day</p>
+                    <div class="price">$29 <span style="font-size: 15px; color:rgb(228, 218, 218); font-weight:normal;">per month</span></div>
+                    <p class="p1">Full access for less than $1 a day</p>
                     <button class="button">
-                    <a href="https://www.w3schools.com/"><span style="color: black;">sign up</span></a></button>
+                    <a href="https://www.w3schools.com/" style="text-decoration: none; color: white;"><span>Sign Up</span></a></button>
                 </div>
                 <div class="col">
             
