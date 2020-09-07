@@ -9,11 +9,14 @@
     <style>
         body{
             font-family: 'Karla', sans-serif;
+            line-height: 1.5;
+        
         }
         .container{
             background-color: #ff7d7d;
             width: 100%;
             height: 100vh;
+            
         }
         .box{
             width: 720px;
@@ -22,52 +25,92 @@
             top:50%;
             left: 50%;
             transform: translate(-50%, -50%);
+          border-radius: 1em;
+         
         }
         h1{
             font-size: 24px;
+            color:#4abebd;
+            
         }
-        ul{
+        /*ul{
             list-style: disc;
             margin-left: 20px;
-        }
+        }*/
 
         .footer{
-            display: flex;
+           display: flex;
 
         }
         .footer .col{
             width: 50%;
+            background-color: rgb(167, 217, 218);
+            border-bottom-right-radius: 10%;
+           
+           
+           
+            
         }
         .footer .col:nth-child(1){
-            background-color: green;
+            background-color:mediumturquoise;
+            border-bottom-left-radius: 10%;
+          
         }
+        h2{
+            font-size: 24px;
+            color:greenyellow;
+            
+        }
+        p{
+            font-size: 14px;
+            color:#4a4a4a;
+            
+        }
+        h3{font-size: 24px;
+            color: honeydew;
+            
 
+        }
+        .button{
+            background-color: springgreen;
+            color: black;
+            border:none;
+        }
+        .list{
+            color:rgb(211, 208, 208);
+            font-size: 14px;
+        }
+      
     </style>
 </head>
 <body>
     <div class="container">
         <div class="box">
             <div class="header">
-                <h1>Lorem ipsum dolor sit.</h1>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente incidunt dolorem omnis quaerat maiores?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestiae officiis, aperiam quos veritatis ducimus numquam aspernatur asperiores, consectetur laboriosam recusandae neque perferendis voluptates laborum inventore exercitationem molestias alias provident.</p>
+                <h1>Join our Community</h1>
+                <h2>30-day,hassle-free money back guarantee</h2>
+                <p>Gain access to our full library of tutorials along with expert code reviews.<br>
+                    Perfect for any developers who are serious about honing thier skills</p>
             </div>
             <div class="footer">
                 <div class="col">
-                    <h3>monthly</h3>
+                    <h3>Monthly Subscription</h3>
                     <div class="price">$29 <span>per month</span></div>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#">sign up</a>
+                    <p>Full access for less than $1 a day</p>
+                    <button class="button">
+                    <a href="https://www.w3schools.com/"><span style="color: black;">sign up</span></a></button>
                 </div>
                 <div class="col">
-                    <h3>why us</h3>
+            
+                    <h3>Why us</h3>
                     <ul>
-                        <li>item1</li>
-                        <li>item2</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                        <li>item5</li>
-                        <li>item6</li>
+                        <li>Tutorial by industry experts</li>
+                        <li>Peer and expert code review</li>
+                        <li>Coding exercises</li>
+                        <li>Access to our Github repos</li>
+                        <li>Community Forum</li>
+                        <li>Flashcard decks</li>
+                        <li>New videos every weeks</li>
                     </ul>
                 </div>
             </div>
