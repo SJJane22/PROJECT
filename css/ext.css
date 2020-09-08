@@ -85,10 +85,19 @@ h3{font-size: 24px;
 .button{
     background-color: springgreen;
     margin-left: 50px;
-    height: 30px;
-    width: 205px;
-    border:none;
     border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    width: 50%;
+    padding: 16px 30px 17px 30px;
+    font-size: 16px;
+    box-shadow: 0 0 4px #666666;
+    margin-top: 20px;
+    color: white;
+    display:block;
+    text-align: center;
+    margin-bottom: 20px;
+    
    
 
 }
@@ -99,9 +108,10 @@ h3{font-size: 24px;
 .price
 {
     margin-left: 50px;
-    font-size: 20px;
-    color:whitesmoke;
+    font-size: 30px;
+    color:white;
     font-weight: bold;
+    
 
 }
 .p1
@@ -109,5 +119,10 @@ h3{font-size: 24px;
     font-size: 14px;
     color:white;
     margin-left: 50px; 
+   
+}
+a:hover{
+    background-color: yellowgreen;
+    
 }
 
